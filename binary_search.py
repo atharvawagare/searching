@@ -26,10 +26,8 @@ def sort(array):
             if array[j]<array[min_index]:
                 min_index=j
         array[i], array[min_index]=array[min_index], array[i]
-    print(array)
     searching(array, search_num)
-        
-    
+         
 #Driver Code Below
 
 raw_nums=input("Enter Numbers (separated by comma) :: ")
