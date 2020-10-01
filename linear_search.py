@@ -1,4 +1,4 @@
-#Linear Searching Function
+"""Linear Searching Function"""
 def searching(array, search_num):
     global flag
     for num in array:
