@@ -1,4 +1,4 @@
-#Binary Searching Function
+"""Binary Searching Function"""
 def searching(array, search_num):
     flag=0
     lower=0
